@@ -1,0 +1,86 @@
+{
+  "user": [
+    {
+      "id": "Aditi",
+      "name": "Aditi",
+      "password": "Aditi@21",
+      "email": "a@gmail.com",
+      "phone": "",
+      "role": "admin"
+    },
+    {
+      "id": "Priya",
+      "name": "Priya",
+      "password": "Priya23%a",
+      "email": "p@gmail.com",
+      "phone": "",
+      "role": "user"
+    },
+    {
+      "username": "aditi",
+      "password": "asA$rtrg",
+      "id": "aditi",
+      "email": "po@gmail.com",
+      "phone": "",
+      "role": "admin"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ],
+  "customer": [
+    {
+      "code": 1,
+      "name": "Chris",
+      "email": "chris@in.com",
+      "designation": "Consultant",
+      "age": 35,
+      "experience": 15
+    },
+    {
+      "code": 2,
+      "name": "Lynn",
+      "email": "lynn@in.com",
+      "designation": "Developer",
+      "age": 24,
+      "experience": 3
+    },
+    {
+      "code": 3,
+      "name": "Tim",
+      "email": "tim@in.com",
+      "designation": "Consultant",
+      "age": 30,
+      "experience": 8
+    },
+    {
+      "code": 4,
+      "name": "Olga",
+      "email": "olga@in.com",
+      "designation": "Developer",
+      "age": 26,
+      "experience": 5
+    },
+    {
+      "code": 5,
+      "name": "Marc",
+      "email": "marc@in.com",
+      "designation": "Manager",
+      "age": 42,
+      "experience": 12
+    }
+  ]
+}

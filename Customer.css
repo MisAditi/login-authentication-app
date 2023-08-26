@@ -1,0 +1,47 @@
+.sortable-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    cursor: pointer;
+  }
+  
+  th:hover {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .sortable-header {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .sortable-header::after {
+    content: '';
+    display: inline-block;
+    margin-left: 4px;
+  }
+  
+  .sorted.asc::after {
+    content: '↑';
+    color: black;
+  }
+  
+  .sorted.desc::after {
+    content: '↓';
+    color: black;
+  }
+  
+  .addBtn{
+    float: right;
+  }
